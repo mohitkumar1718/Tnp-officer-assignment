@@ -41,15 +41,15 @@ const Footer = () => {
     <h1 className='font-bold text-4xl text-white'>VAST COMMUNITY OF STUDENTS</h1>
     <div ref={containerRef} className="flex justify-around bg-indigo-900 p-4 md:w-1/2 mx-auto">
       <div className="flex items-center justify-center  border-white border-2 rounded-full  ">
-        <span className="text-xl font-semibold ml-5">{instagramCount.toLocaleString()} +</span>
+        <span className="text-lg md:text-xl font-semibold ml-5">{instagramCount.toLocaleString()} +</span>
         <img src="/instagram logo..png" alt="Instagram" className="lg:h-10 lg:w-10 h-8 w-8 ml-6" />
       </div>
       <div className="flex items-center justify-center border-white border-2 rounded-full px-4 py-2 mx-2">
-        <span className="text-xl font-semibold">{telegramCount.toLocaleString()} +</span>
+        <span className="text-lg md:text-xl font-semibold">{telegramCount.toLocaleString()} +</span>
         <img src="/telegram.png" alt="Telegram" className="lg:h-10 lg:w-10 h-8 w-8" />
       </div>
       <div className="flex items-center justify-center border-white border-2 rounded-full px-4 py-2">
-        <span className="text-xl font-semibold">{linkedinCount.toLocaleString()} +</span>
+        <span className="text-lg md:text-xl font-semibold">{linkedinCount.toLocaleString()} +</span>
         <img src="/linkedin.png" alt="LinkedIn" className="lg:h-10 lg:w-10 h-8 w-8" />
       </div>
     </div>
